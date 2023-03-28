@@ -12,6 +12,9 @@
         android:theme="@style/Theme.AppPaneles"
         tools:targetApi="31">
         <activity
+            android:name=".Activity_inicio"
+            android:exported="false" />
+        <activity
             android:name=".activity_login"
             android:exported="false" />
         <activity

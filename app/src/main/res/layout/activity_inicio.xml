@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_inicio">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="314dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="182dp"
+        android:freezesText="false"
+        android:text="Ingrese el consumo de Kwh de los últimos 3 meses:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="182dp"
+        android:freezesText="false"
+        android:text="Bienvenido a Tecno Solar SV"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="313dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="182dp"
+        android:freezesText="false"
+        android:text="Para poder ofrecerte el tipo de panel solar adecuado es necesario realizar un estudio acerca del  consumo de energía que se produce en tu hogar."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="313dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="182dp"
+        android:freezesText="false"
+        android:text="Para tener una estimación de su consumo de energía podemos hacer uso de las ultimas 3  facturas"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mes1_editText"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:hint="Mes 1:"
+        android:inputType="textPersonName"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <EditText
+        android:id="@+id/mes2_editText"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="54dp"
+        android:ems="10"
+        android:hint="Mes 2:"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mes1_editText" />
+
+    <EditText
+        android:id="@+id/mes3_editText"
+        android:layout_width="312dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="54dp"
+        android:ems="10"
+        android:hint="Mes 3:"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mes2_editText" />
+
+    <Button
+        android:id="@+id/bnt_meses"
+        android:layout_width="138dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="128dp"
+        android:text="Ingresar"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mes3_editText" />
+
+</android.support.constraint.ConstraintLayout>
