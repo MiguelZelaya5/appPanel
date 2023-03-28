@@ -12,7 +12,7 @@
         android:theme="@style/Theme.AppPaneles"
         tools:targetApi="31">
         <activity
-            android:name=".Activity_inicio"
+            android:name=".activity_inicioseci"
             android:exported="false" />
         <activity
             android:name=".activity_login"
